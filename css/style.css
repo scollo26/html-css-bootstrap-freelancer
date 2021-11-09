@@ -1,5 +1,5 @@
 header{
-    background-color: grey;
+    background-color: #2C3E50;
 }
 .blue{
     background-color: blue;
@@ -11,6 +11,12 @@ header{
 .white{
     color: white;
 }
+
+.red{
+    background-color: tomato;
+}
+
+/* height */
 
 .h-20{
     height: 30px;
@@ -39,17 +45,13 @@ header{
     height: 300px;
 }
 
-.t-a{
-    text-align: center;
-}
+
 
 .margin-top{
     margin-top: 2em;
 }
 
-.red{
-    background-color: tomato;
-}
+/* bordi */
 
 .border-bottom{
     border-bottom: 1px solid black;
@@ -59,6 +61,8 @@ header{
     border-radius: 5px;
 }
 
+/* flex-position */
+
 .flex{
     display: flex;
 }
@@ -66,26 +70,34 @@ header{
 .just-content{
     justify-content: flex-end;
 }
+
+.t-a{
+    text-align: center;
+}
+.line-height-80{
+    line-height: 80px;
+}
+
 .liste-style{
     list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .container .row .col-4 .flex li{
     padding: 10px;
 }
 
-.container .row .col-4 .flex li a{
-    text-decoration: none;
-    color: white;
-}
 
 footer{
-    background-color: grey;
+    background-color: #2C3E50;
 }
 
-.line-height-80{
-    line-height: 80px;
-}
+
+/* button */
 
 .download{
     margin-top: 1em;
@@ -96,23 +108,21 @@ footer{
     border-radius: 5px;
 }
 
+/* menu-header-max-width: 767px */
 
 .container .row .col-4 .menu > div{
     width: 15px;
     height: 2px;
-    background-color: black;
+    background-color: grey;
     margin: 4px 0;
 }
 
-
-
-
 .container .row .col-4 .menu {
     display: none;
-    width: 25px;
+    width: 30px;
     height: 25px;
-    padding: 0 0 0 4px;
-    border: 1px solid black;
+    padding: 0 0 0 6px;
+    border: 1px solid white;
 }
 
 
@@ -122,9 +132,6 @@ footer{
     }
     .container .row .col-4 .menu {
         display: block;
-        
         justify-content: flex-end;
     }
-
-
 }
