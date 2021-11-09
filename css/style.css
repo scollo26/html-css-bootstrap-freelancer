@@ -47,3 +47,7 @@ header{
 footer{
     background-color: grey;
 }
+
+.line-height-80{
+    line-height: 80px;
+}
