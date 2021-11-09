@@ -16,9 +16,16 @@ header{
     height: 100px;
 }
 
+.width-100{
+    width: 100px;
+}
+
 
 .height-500{
     height: 500px;
+}
+.height-300{
+    height: 300px;
 }
 
 .t-a{
@@ -31,4 +38,12 @@ header{
 
 .red{
     background-color: tomato;
+}
+
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+
+footer{
+    background-color: grey;
 }
