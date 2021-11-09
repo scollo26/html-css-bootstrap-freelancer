@@ -5,7 +5,18 @@ header{
     background-color: blue;
 }
 .green{
-    background-color: yellowgreen;
+    background-color: rgb(26, 188, 156);
+}
+
+.white{
+    color: white;
+}
+
+.h-20{
+    height: 30px;
+}
+.w-20{
+    width: 40px;
 }
 
 .height-80{
@@ -44,10 +55,76 @@ header{
     border-bottom: 1px solid black;
 }
 
+.radius{
+    border-radius: 5px;
+}
+
+.flex{
+    display: flex;
+}
+
+.just-content{
+    justify-content: flex-end;
+}
+.liste-style{
+    list-style-type: none;
+}
+
+.container .row .col-4 .flex li{
+    padding: 10px;
+}
+
+.container .row .col-4 .flex li a{
+    text-decoration: none;
+    color: white;
+}
+
 footer{
     background-color: grey;
 }
 
 .line-height-80{
     line-height: 80px;
+}
+
+.download{
+    margin-top: 1em;
+    padding: o.8em 1.5em;
+    background-color: rgb(26, 188, 156);
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.container .row .col-4 .menu > div{
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+
+
+
+.container .row .col-4 .menu {
+    display: none;
+    width: 25px;
+    height: 25px;
+    padding: 0 0 0 4px;
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width: 767px) {
+    .container .row .col-4 .flex li{
+        display: none;
+    }
+    .container .row .col-4 .menu {
+        display: block;
+        
+        justify-content: flex-end;
+    }
+
+
 }
