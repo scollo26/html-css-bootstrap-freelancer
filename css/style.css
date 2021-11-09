@@ -12,10 +12,23 @@ header{
     height: 80px;
 }
 
+.height-100{
+    height: 100px;
+}
+
+
 .height-500{
     height: 500px;
 }
 
 .t-a{
     text-align: center;
+}
+
+.margin-top{
+    margin-top: 2em;
+}
+
+.red{
+    background-color: tomato;
 }
