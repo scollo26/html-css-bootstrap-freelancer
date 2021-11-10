@@ -1,3 +1,4 @@
+
 header{
     background-color: #2C3E50;
 }
@@ -177,7 +178,7 @@ a{
 }
 
 
-.col-12 :last-child{
+.margin-left-5 :last-child{
     margin-left: 0.5rem;
 }
 
