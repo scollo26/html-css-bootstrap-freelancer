@@ -107,7 +107,7 @@ header{
 
 
 footer ul li > div{
-    padding: 20px;
+    padding: 10px;
     border-radius: 50%;
 } 
 
@@ -128,9 +128,11 @@ footer ul li > :hover{
 
 
 /* flex-position */
+
 .fixed{
     position: fixed;
     width: 100%;
+    z-index: 10;
     
 }
 .flex{
@@ -197,7 +199,7 @@ a{
 
 
   .plus{
-    display: inline-block;
+
     font-size: 3em;
     color: white;
     display: none;
@@ -214,7 +216,7 @@ a{
 }
 
 
-.col-4 :hover .plus {
+.col-4:hover .plus {
     display: block;
     background-color: rgba(26, 188, 156, 1); 
     transition: 2s;   
