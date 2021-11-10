@@ -8,6 +8,10 @@ header{
     background-color: rgb(26, 188, 156);
 }
 
+.grey{
+    color: grey;
+}
+
 .white{
     color: white;
 }
@@ -27,6 +31,12 @@ header{
 .red{
     background-color: tomato;
 }
+
+
+.relative{
+    position: relative;
+}
+
 
 /* height */
 
@@ -74,8 +84,42 @@ header{
 }
 
 .radius{
-    border-radius: 5px;
+    border-radius: 1px;
+    
 }
+
+.border{ 
+    border: 1px solid white;  
+}
+
+.border-none{
+    border: none;
+}
+
+
+/* inizio-footer */
+
+
+footer ul li > div{
+    padding: 20px;
+    border-radius: 50%;
+} 
+
+
+footer ul li > :hover{
+    background-color: white;
+    color: black;
+}
+
+.footer-top{
+    background-color: #3A546D;
+}
+
+.footer-bottom{
+    background-color: #2C3E50;
+}
+
+
 
 /* flex-position */
 
@@ -108,9 +152,7 @@ a{
 }
 
 
-footer{
-    background-color: #2C3E50;
-}
+
 
 
 /* button */
@@ -152,6 +194,13 @@ footer{
     }
 } */
 
+/* .margin-left{
+    margin-left: 0.5rem;
+} */
+
+.col-12 :last-child{
+    margin-left: 0.5rem;
+}
 
 
 .hr {
@@ -168,3 +217,53 @@ footer{
     width: 20%;
    
   }
+
+
+  /* hover-lista */
+
+  .container .col-6 ul :hover a{
+    color: rgb(26, 188, 156);
+  }
+
+
+/* hover-immagini */
+
+
+  .plus{
+    display: inline-block;
+    font-size: 3em;
+    color: white;
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+
+.col-4 .relative img{
+    transition: 2s;
+}
+
+
+.col-4 :hover .plus {
+    display: block;
+    background-color: rgba(26, 188, 156, 1); 
+    transition: 2s;   
+}
+
+.opacity{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+     
+}
+
+.position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
