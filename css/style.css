@@ -77,6 +77,10 @@ header{
     margin-top: 2em;
 }
 
+.col-12 .border i {
+    margin-left: 0rem;
+}
+
 /* bordi */
 
 .border-bottom{
@@ -107,7 +111,7 @@ header{
 
 
 footer ul li > div{
-    padding: 10px;
+    padding: 11px;
     border-radius: 50%;
 } 
 
